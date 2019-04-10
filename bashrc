@@ -22,3 +22,9 @@ tard () {
     dir=$(echo $1 | cut -d/ -f1)
     tar -cvf ${dir}.tar $dir
 }
+
+untar () {
+    file=$1
+    tar -xvf $file
+}
+
