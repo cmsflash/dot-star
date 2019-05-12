@@ -26,5 +26,6 @@ tard () {
 untar () {
     file=$1
     tar -xvf $file
+    rm $file
 }
 
