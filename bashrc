@@ -2,6 +2,9 @@
 export VISUAL=vim
 export EDITOR=$VISUAL
 
+# sudo alias expansion
+alias sudo="sudo "
+
 # Git aliases
 alias gs="git status"
 alias gd="git diff"
