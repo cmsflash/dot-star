@@ -15,7 +15,7 @@ alias gp="git push"
 # Python 3 environment
 alias p="python3"
 alias pm="python3 -m"
-alias pip3="sudo python3 -m pip"
+alias pip3="sudo -H python3 -m pip"
 
 # Bash runcom shortcuts
 alias brc="source ~/.bashrc"
