@@ -18,7 +18,7 @@ alias pm="python3 -m"
 alias pip3="sudo -H python3 -m pip"
 
 # Bash runcom shortcuts
-alias brc="source ~/.bashrc"
+alias brc=". ~/.bashrc"
 
 # Functions
 tard () {
