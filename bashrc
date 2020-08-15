@@ -20,6 +20,9 @@ alias pip3="sudo -H python3 -m pip"
 # Bash runcom shortcuts
 alias brc=". ~/.bashrc"
 
+# Grep shortcuts
+alias gre="grep -rn . -e"
+
 # Functions
 tard () {
     dir=$(echo $1 | cut -d/ -f1)
