@@ -23,6 +23,9 @@ alias brc=". ~/.bashrc"
 # Grep shortcuts
 alias gre="grep -rn . -e"
 
+# Watch aliases
+alias watch='watch '
+
 # Functions
 tard () {
     dir=$(echo $1 | cut -d/ -f1)
