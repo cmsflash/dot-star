@@ -17,8 +17,9 @@ alias p="python3"
 alias pm="python3 -m"
 alias pip3="sudo -H python3 -m pip"
 
-# Bash runcom shortcuts
+# Shell runcom shortcuts
 alias brc=". ~/.bashrc"
+alias zrc=". ~/.zshrc"
 
 # Grep shortcuts
 alias gre="grep -rn . -e"
