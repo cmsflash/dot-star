@@ -6,7 +6,8 @@ export EDITOR=$VISUAL
 alias sudo="sudo "
 
 # Git aliases
-alias gs="git status"
+alias gst="git status"
+alias gs="git switch"
 alias gd="git diff"
 alias ga="git add"
 alias gc="git commit"
