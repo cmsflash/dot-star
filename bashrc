@@ -2,6 +2,9 @@
 export VISUAL=vim
 export EDITOR=$VISUAL
 
+# SSH agent forwarding
+export SSH_AUTH_SOCK=$(ls -t /tmp/ssh-**/* | head -1)
+
 # sudo alias expansion
 alias sudo="sudo "
 
@@ -42,3 +45,6 @@ untar () {
     rm $file
 }
 
+function fixit() {
+  pre-commit run --hook-stage=manual
+}
