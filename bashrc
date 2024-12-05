@@ -16,6 +16,7 @@ alias gd="git diff"
 alias ga="git add"
 alias gc="git commit"
 alias gp="git push"
+alias gco="git checkout"
 alias grs1="git checkout HEAD~1 --"
 
 # Python 3 environment
