@@ -34,6 +34,9 @@ alias gre="grep -rn . -e"
 # Watch aliases
 alias watch='watch '
 
+# Bazel aliases
+alias bt="bazel test"
+
 # Functions
 tard () {
     dir=$(echo $1 | cut -d/ -f1)
